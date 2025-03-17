@@ -65,7 +65,7 @@ namespace DotnetSelenium
         [Test]
         public void Test3() // 2048 test
         {
-            IWebDriver driver = new ChromeDriver();
+            IWebDriver driver = new EdgeDriver();
             driver.Navigate().GoToUrl("https://2048game.com/de/");
             driver.Manage().Window.Maximize();
 
@@ -96,7 +96,7 @@ namespace DotnetSelenium
         [Test]
         public void Test4()
         {
-            IWebDriver driver = new ChromeDriver();
+            IWebDriver driver = new EdgeDriver();
             driver.Navigate().GoToUrl("https://neal.fun/stimulation-clicker/");
             driver.Manage().Window.Maximize();
 
@@ -115,7 +115,7 @@ namespace DotnetSelenium
         [Test] 
         public void Test5()
         {
-            IWebDriver driver = new ChromeDriver();
+            IWebDriver driver = new EdgeDriver();
             driver.Navigate().GoToUrl("https://flappybird.io/");
             driver.Manage().Window.Maximize();
 
